@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dc2064a1cb0b4e24b23a480a5dd0e9e0" Name="Diagram1" >
+        <EntityTypeShape EntityType="Model.TB_DEPARTMENT" Width="1.875" PointX="0.5" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.TB_USERS" Width="2" PointX="3.625" PointY="0.5" />
+        <EntityTypeShape EntityType="Model.TB_USERROLE" Width="1.875" PointX="6.25" PointY="0.5" />
+        <EntityTypeShape EntityType="Model.TB_ROLE" Width="1.875" PointX="10" PointY="1" />
+        <EntityTypeShape EntityType="Model.TB_MENUROLE" Width="1.875" PointX="8" PointY="4.375" />
+        <AssociationConnector Association="Model.TB_DEPARTMENTTB_USERS" />
+        <AssociationConnector Association="Model.TB_USERSTB_USERROLE" />
+        <AssociationConnector Association="Model.TB_USERROLETB_ROLE" />
+        <EntityTypeShape EntityType="Model.TB_MENU" Width="2.125" PointX="3.75" PointY="4.25" />
+        <AssociationConnector Association="Model.TB_ROLETB_MENUROLE" />
+        <AssociationConnector Association="Model.TB_MENUROLETB_MENU" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

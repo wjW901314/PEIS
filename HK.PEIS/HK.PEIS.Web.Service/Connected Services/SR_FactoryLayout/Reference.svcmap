@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="46aed96c-8f76-4ca0-9496-e20a275067f2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies>
+      <ReferencedAssembly AssemblyName="HK.PEIS.DTO" />
+      <ReferencedAssembly AssemblyName="Serialize.Linq" />
+    </ReferencedAssemblies>
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://127.0.0.1:8089/MyWCF.Server/IFactoryLayoutWCFService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="IFactoryLayoutWCFService.xsd" MetadataType="Schema" ID="9227cd0e-8b92-414b-9381-7224d679d58f" SourceId="1" SourceUrl="http://127.0.0.1:8089/MyWCF.Server/IFactoryLayoutWCFService?xsd=xsd0" />
+    <MetadataFile FileName="IFactoryLayoutWCFService1.xsd" MetadataType="Schema" ID="6a20de0a-9786-444a-8dac-87d66059b2a0" SourceId="1" SourceUrl="http://127.0.0.1:8089/MyWCF.Server/IFactoryLayoutWCFService?xsd=xsd1" />
+    <MetadataFile FileName="IFactoryLayoutWCFService2.xsd" MetadataType="Schema" ID="bfb9a496-2cc5-47e3-9121-d18a131c09c5" SourceId="1" SourceUrl="http://127.0.0.1:8089/MyWCF.Server/IFactoryLayoutWCFService?xsd=xsd2" />
+    <MetadataFile FileName="FactoryLayoutWCFService.wsdl" MetadataType="Wsdl" ID="0141cd26-2e6e-4f36-99e1-8ee5538acc2e" SourceId="1" SourceUrl="http://127.0.0.1:8089/MyWCF.Server/IFactoryLayoutWCFService" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="235f1762-0762-4045-bbd6-bb37a481e5f6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies>
+      <ReferencedAssembly AssemblyName="HK.PEIS.DTO" />
+      <ReferencedAssembly AssemblyName="Serialize.Linq" />
+    </ReferencedAssemblies>
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://127.0.0.1:8089/MyWCF.Server/IProductWCFService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="IProductWCFService.xsd" MetadataType="Schema" ID="ab04f4b1-06ad-4354-9cbf-edf117b9a378" SourceId="1" SourceUrl="http://127.0.0.1:8089/MyWCF.Server/IProductWCFService?xsd=xsd0" />
+    <MetadataFile FileName="ProductWCFService.wsdl" MetadataType="Wsdl" ID="dfc9dfcb-3214-4d32-b260-c44f18c3d39f" SourceId="1" SourceUrl="http://127.0.0.1:8089/MyWCF.Server/IProductWCFService" />
+    <MetadataFile FileName="IProductWCFService1.xsd" MetadataType="Schema" ID="7f34c4b4-e853-423a-8452-467f79b4b442" SourceId="1" SourceUrl="http://127.0.0.1:8089/MyWCF.Server/IProductWCFService?xsd=xsd2" />
+    <MetadataFile FileName="IProductWCFService2.xsd" MetadataType="Schema" ID="6eab5f67-2d30-4a09-b12b-2cc58ba8eaf8" SourceId="1" SourceUrl="http://127.0.0.1:8089/MyWCF.Server/IProductWCFService?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
