@@ -48,6 +48,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.AI.DependencyCollector, Version=2.6.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.6.4\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
     </Reference>
@@ -300,6 +303,7 @@
     <Content Include="Scripts\esm\popper.js.map" />
     <Content Include="Scripts\esm\popper-utils.min.js.map" />
     <Content Include="Scripts\esm\popper-utils.js.map" />
+    <Content Include="Log4net.config" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -355,6 +359,10 @@
     <ProjectReference Include="..\HK.PEIS.Common.DTO\HK.PEIS.DTO.csproj">
       <Project>{42F88450-80C8-49A9-A21D-7966A6C18582}</Project>
       <Name>HK.PEIS.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HK.PEIS.Utility\HK.PEIS.Utility.csproj">
+      <Project>{B0CF3B67-9E8D-4ECF-AA07-8F8F77A56DED}</Project>
+      <Name>HK.PEIS.Utility</Name>
     </ProjectReference>
     <ProjectReference Include="..\HK.PEIS.WEB.BLL\HK.PEIS.WEB.IService.csproj">
       <Project>{F2BC0364-33EF-4705-8235-CB791E4529A4}</Project>
